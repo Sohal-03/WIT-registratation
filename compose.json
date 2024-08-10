@@ -1,0 +1,24 @@
+{
+    "name": "student-registration",
+    "description": "A student registration system written in PHP 8.3",
+    "require": {
+        "php": "^8.3",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --colors=always"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
