@@ -1,5 +1,5 @@
 {
-    "name": "student-registration",
+    "name": "Sohal-03/student-registration",
     "description": "A student registration system written in PHP 8.3",
     "require": {
         "php": "^8.3",
